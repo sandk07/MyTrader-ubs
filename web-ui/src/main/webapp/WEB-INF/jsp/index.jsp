@@ -17,16 +17,16 @@
 
 <html>
 <head>
-    <title>Welcome to the axon trader</title>
+    <title>Welcome to the demo</title>
 </head>
 <body>
 <content tag="title">Welcome</content>
 <content tag="tagline">Have fun playing with the trader</content>
 <content tag="herounit">
     <div class="hero-unit">
-        <h1>The trader</h1>
+        <h1>Merival</h1>
 
-        <p>Welcome to the proof of concept of Axon Trader. This sample is created to showcase axon capabilities. Next to
+        <p>Welcome to the demo of Self-Service. This sample is created to show case self-service capabilities. Next to
             that we wanted to create a cool app with a nice front-end that we can really use as a showcase.</p>
 
         <p>If you are logged in, you can go to your dashboard.</p>

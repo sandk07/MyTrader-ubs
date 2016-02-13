@@ -22,7 +22,7 @@
     <packaging>pom</packaging>
     <version>1.0.0</version>
 
-    <name>Axon Trader Sample Project</name>
+    <name>Merival Demo Project</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
