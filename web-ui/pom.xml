@@ -28,11 +28,18 @@
     <name>Axon Trader Sample - Web ui</name>
     <packaging>war</packaging>
      <properties>
-	  <deployer.path>
+	  <!--<deployer.path>
 	  /usr/local/sonatype-work/nexus/storage/releases/com/wipro/samples/${project.artifactId}/${project.version}/${project.artifactId}-${project.version}.war
+	  </deployer.path>-->
+	  
+	  <!--Test deploy to nexus with appName-->
+	  <deployer.path>
+	  /usr/local/sonatype-work/nexus/storage/releases/com/wipro/samples/${project.artifactId}/${project.version}/${appName}-${project.version}.war
 	  </deployer.path>
+	  
     </properties>
     <build>
+    	<!--Test war file name as appName-->
          <finalName>${appName}-${project.version}</finalName>
          <!--<finalName>${project.artifactId}-${project.version}</finalName>-->
             <plugins>
