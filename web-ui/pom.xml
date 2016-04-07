@@ -33,7 +33,8 @@
 	  </deployer.path>
     </properties>
     <build>
-         <finalName>${project.artifactId}-${project.version}</finalName>
+         <finalName>${appName}-${project.version}</finalName>
+         <!--<finalName>${project.artifactId}-${project.version}</finalName>-->
             <plugins>
                 <plugin>
                 <groupId>org.codehaus.cargo</groupId>
